@@ -1,0 +1,104 @@
+.help {
+  background-color: green;
+  color: white;
+  right: 20px;
+  bottom: 0;
+  padding: 10px 10px 4px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.help span {
+  margin: 0 8px;
+}
+.help i:last-child:hover {
+  color: black;
+}
+.head{
+    justify-content: space-between;
+}
+.right-side:hover {
+color: rgb(75, 73, 73);
+}
+.chatpart{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(54, 54, 54);
+    height: 450px;
+    color: white;
+    border-radius: 10px;
+    overflow: auto;
+}
+.chatpart .message-box .head{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.chatpart .message-box .head span{
+    margin-left: 10px;
+}
+.chatpart .message-box .first-message{
+    padding:   10px;
+}
+.user-message{
+    text-align: right;
+    padding: 10px;
+    border-radius: 16px;
+    width: 97%;
+    margin: 0 auto;
+}
+.chatpart .message-box .first-message img,
+.user-message img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+.user-message img{
+    margin-left:  10px;
+}
+ .admin{
+    padding: 10px;
+    border-radius: 16px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+ .admin img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+
+
+.separator{
+    border-color: rgb(78, 78, 78);
+    margin: 0;
+    margin-top: 10px;
+
+}
+.my-input{
+    background-color: rgb(54, 54, 54);
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    bottom: -150px;
+    display: block;
+}
+.admin:hover,
+.user-message:hover{
+    background-color: rgb(78,78,78);
+}
+.active {
+    background-color: rgb(78,78,78);
+}
+
